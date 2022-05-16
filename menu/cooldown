@@ -1,0 +1,4 @@
+M140 S0						; Set Heater 0 (default) to 0 ^C
+M140 S-273.15 R-273.15		; Switch off the Heater 0 (default)
+G10 P0 S-273.15 R-273.15	; Set Tool 0 off
+M106 S0						; Put parts cooling fan (default 0) off too

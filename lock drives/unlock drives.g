@@ -1,0 +1,1 @@
+M564 H0 S0		; allow movement of not homed and out of boundary !!

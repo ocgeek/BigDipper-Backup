@@ -1,0 +1,5 @@
+button R0 C5 F0 T"BACK " A"return"
+button R10 C5 T"TBC1" A""
+button R20 C5 T"TBC2" A""
+button R30 C5 T"TBC3" A""
+button R40 C5 T"TBC4" A""

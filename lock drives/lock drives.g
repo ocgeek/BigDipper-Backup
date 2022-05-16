@@ -1,0 +1,1 @@
+M564 H1 S1		; DO NOT allow movement of not homed and out of boundary !!

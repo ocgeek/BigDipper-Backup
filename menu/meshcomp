@@ -1,0 +1,13 @@
+; Mesh compensation action
+
+M291 P"Homing all axes"
+G28
+M291 P"Heating bed / nozzle: 50/180"
+M190 S50
+M109 S180
+M291 P"Running mesh compensation"		; probe grid, points HAVE TO be defined with M557 in config.g !
+G29
+M291 P"Done - turning heaters off"
+M140 S0	
+M140 S-273.15 R-273.15
+G10 P0 S-273.15 R-273.15
